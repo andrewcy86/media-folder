@@ -42,7 +42,7 @@ class Media_Folder_Type {
             'add_new_item'        => _x( 'Add Folder', 'media-folder' ),
             'edit_item'           => _x( 'Edit Folder', 'media-folder' ),
             'new_item'            => _x( 'New Folder', 'media-folder' ),
-            'view_item'           => _x( 'View Folder', 'media-folder' ),
+            //'view_item'           => _x( 'View Folder', 'media-folder' ),
             'search_items'        => _x( 'Search', 'media-folder' ),
             'not_found'           => _x( 'No folder found', 'media-folder' ),
             'not_found_in_trash'  => _x( 'No folder found in Trash', 'media-folder' ),
