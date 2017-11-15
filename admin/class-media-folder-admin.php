@@ -139,8 +139,8 @@ class Media_Folder_Admin {
 				remove_meta_box( 'categorydiv', 'folder', 'side' );
 remove_meta_box( 'postimagediv', 'folder', 'side' );
 remove_meta_box( 'slugdiv', 'folder', 'normal' );
-remove_meta_box( 'wppcp-post-file-attachments-general', 'folder', 'normal' );
-remove_meta_box( 'wppcp-post-file-attachments', 'folder', 'normal' );
+remove_meta_box( 'wppcp-post-file-attachments-general', 'folder', 'advanced' );
+remove_meta_box( 'wppcp-post-file-attachments', 'folder', 'advanced' );
 			}   
 		}
     }
