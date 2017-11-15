@@ -59,7 +59,7 @@ class Media_Folder_Type {
             'menu_icon'           => 'dashicons-category',
             'hierarchical'        => true,
             'supports'            => array('title','thumbnail'),
-            'public'              => false,
+            'public'              => true,
             'show_ui'             => true,
             'show_in_menu'        => true,
             'show_in_nav_menus'   => false,
