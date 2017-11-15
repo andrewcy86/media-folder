@@ -136,6 +136,11 @@ class Media_Folder_Admin {
 			foreach ( array('folder') as $type ) 
 			{
 				add_meta_box('upload_files', __('Upload New Media'), array($this,'upload_meta_box'), $type, 'side','high');
+				remove_meta_box( 'categorydiv', 'folder', 'side' );
+remove_meta_box( 'postimagediv', 'folder', 'side' );
+remove_meta_box( 'slugdiv', 'folder', 'normal' );
+remove_meta_box( 'wppcp-post-file-attachments-general', 'folder', 'normal' );
+remove_meta_box( 'wppcp-post-file-attachments', 'folder', 'normal' );
 			}   
 		}
     }
