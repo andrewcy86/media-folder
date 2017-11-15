@@ -136,8 +136,7 @@ class Media_Folder_Admin {
 			foreach ( array('folder') as $type ) 
 			{
 				add_meta_box('upload_files', __('Upload New Media'), array($this,'upload_meta_box'), $type, 'side','high');
-		add_meta_box('User_specific_content', __( 'User specific content box'),array($this,'User_specific_content_box_inner'),$type);
-
+		
 			}   
 		}
     }
