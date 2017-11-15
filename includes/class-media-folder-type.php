@@ -55,7 +55,7 @@ class Media_Folder_Type {
         $args = array(
             'labels'              => $labels,
           //'capabilities'        => $capabilities,
-            'capability_type'     => 'post',
+            'capability_type'     => 'read',
             'menu_icon'           => 'dashicons-category',
             'hierarchical'        => true,
             'supports'            => array('title','thumbnail'),
